@@ -1,0 +1,19 @@
+svg {
+  margin: 0 auto;
+  display: block;
+  background-color: rgb(225, 239, 243);
+}
+
+.tick line{
+  stroke: #ccc;
+  stroke-dasharray: 10, 5;
+}
+
+.domain{
+  stroke-width: 3px;
+  stroke-dasharray: 0;
+}
+
+.bold{
+  font-size: 1.5em;
+}
